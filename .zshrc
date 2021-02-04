@@ -69,7 +69,7 @@ ZSH_THEME_RANDOM_IGNORED=(obraun smt dallas simonoff pygmalion tjkirch_mod)
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump extract sudo history-substring-search zsh-autosuggestions command-not-found)
+plugins=(git autojump extract sudo history-substring-search zsh-autosuggestions command-not-found zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
