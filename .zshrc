@@ -98,3 +98,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export http_proxy="http://localhost:20171"
+export https_proxy="http://localhost:20171"

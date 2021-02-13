@@ -66,3 +66,9 @@ https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#with
 
 
 
+# git-open
+
+https://github.com/paulirish/git-open
+
+1. `git clone https://github.com/paulirish/git-open.git $ZSH_CUSTOM/plugins/git-open`
+2. Add `git-open` to your plugin list - edit `~/.zshrc` and change `plugins=(...)` to `plugins=(... git-open)`
