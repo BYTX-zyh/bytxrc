@@ -9,7 +9,7 @@ export ZSH="/home/bytx/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="random"
-ZSH_THEME_RANDOM_IGNORED=(obraun smt dallas simonoff pygmalion tjkirch_mod)
+ZSH_THEME_RANDOM_IGNORED=(macovsky obraun smt dallas simonoff pygmalion tjkirch_mod)
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -69,7 +69,7 @@ ZSH_THEME_RANDOM_IGNORED=(obraun smt dallas simonoff pygmalion tjkirch_mod)
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump extract sudo history-substring-search zsh-autosuggestions command-not-found zsh-syntax-highlighting)
+plugins=(git-open git autojump extract sudo history-substring-search zsh-autosuggestions command-not-found zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -98,5 +98,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export http_proxy="http://localhost:20171"
-export https_proxy="http://localhost:20171"
